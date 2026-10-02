@@ -1,71 +1,98 @@
 # 🧮 Simple Calculator
 
-A beginner-friendly calculator project written in **C**.
+A beginner-friendly **C programming project** that performs basic arithmetic operations using user input.
 
-This project performs basic arithmetic operations and allows the user to perform multiple calculations in a single run.
+This project was built while learning and practicing core C programming concepts.
 
 ## ✨ Features
 
-* Addition
-* Subtraction
-* Multiplication
-* Division
-* Division-by-zero protection
+* Addition (`+`)
+* Subtraction (`-`)
+* Multiplication (`*`)
+* Integer Division (`/`)
+* Modulus / Remainder (`%`)
+* Division by zero protection
 * Invalid operator handling
-* Repeat calculation option
-* Decimal number support
+* Calculate again option
 
-## 🧠 C Concepts Used
+## 🛠️ Technologies Used
 
-* Variables & Data Types
+* **C Programming**
+* **VS Code**
+* **GCC Compiler**
+* **Windows**
+
+## 📚 C Concepts Used
+
 * `printf()` and `scanf()`
+* Variables
+* Data Types
 * Arithmetic Operators
-* `if-else`
-* `switch-case`
+* `if-else if-else`
+* Character input
 * `do-while` loop
-* `break`
-* Basic input validation
+* Comparison and logical operators
+* Basic error handling
+
+## 📁 Project Structure
+
+```text
+01-Simple-Calculator/
+│
+├── calculator.c
+└── README.md
+```
 
 ## ▶️ How to Run
 
-Compile the program using GCC:
+### 1. Compile the program
 
 ```bash
 gcc calculator.c -o calculator
 ```
 
-Run it:
+### 2. Run the program
 
 ```bash
 ./calculator
 ```
 
-On Windows, you can run:
+On Windows, you can also run:
 
 ```bash
 calculator.exe
 ```
 
-## 💡 Example
+## 💻 Example
 
 ```text
-Enter expression (e.g. 12 + 5): 12 + 5
-Result = 17.00
+Enter first number: 20
+Enter operator (+, -, *, /, %): *
+Enter second number: 5
 
-Calculate again? (y/n): y
-
-Enter expression (e.g. 12 + 5): 10 / 2
-Result = 5.00
+Result = 100
 
 Calculate again? (y/n): n
 
 Thank you for using calculator!
 ```
 
-## 📌 Learning Outcome
+## 🎯 Learning Outcome
 
-Through this project, I practiced combining multiple basic C programming concepts into one working program instead of writing isolated examples.
+Through this project, I practiced how to:
 
-## 👨‍💻 Status
+* Take input from the user
+* Perform arithmetic operations
+* Use conditional statements
+* Handle division by zero
+* Work with characters and operators
+* Repeat a program using a `do-while` loop
+* Build a small working program from basic C concepts
 
-**Completed and Tested**
+## 📌 Project Status
+
+**Completed** ✅
+
+## 🚀 Next Project
+
+**Number Guessing Game** — a project focused on conditions, loops, and basic game logic.
